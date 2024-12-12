@@ -6,7 +6,7 @@ CXXFLAGS = -Wall -std=c++17
 TARGET = $(notdir $(CURDIR)).out
 
 # the source file
-SRC = main.cpp
+SRC = p1.cpp
 
 # sets the default target when make is ran w/o any arguments
 all: $(TARGET)
